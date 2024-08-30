@@ -10,11 +10,12 @@ Note:- There is an issue with the provided api due to CORS policy, to fix this o
 inspection tool, results from fetching the api could be seen in ui
 
 ### Screenshots
+![image](https://github.com/Sparsh55/React-assesment/blob/main/react/src/assets/d.PNG)
 
 
 ### Tech Stack
 
-Html, css .js and React js.
+Html, css .js and Vite + React js.
 
 ### Components 
 1. ProductDetails
