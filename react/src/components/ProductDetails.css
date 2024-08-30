@@ -1,0 +1,44 @@
+/* File: src/components/ProductDetails.css */
+
+/* General styles for container and elements */
+.product-details-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+.product-details-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.product-details-container p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Span inside paragraphs for emphasis */
+.product-details-container p span {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .product-details-container {
+    padding: 15px;
+  }
+
+  .product-details-container h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .product-details-container p {
+    font-size: 14px;
+    
+    margin-bottom: 8px;
+  
+  }
+}

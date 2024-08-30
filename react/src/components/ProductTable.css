@@ -1,0 +1,95 @@
+/* File: src/components/ProductTable.css */
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .product-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .product-table td {
+    font-size: 14px;
+  }
+  
+  .product-table p {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Mobile Styles */
+  @media (max-width: 600px) {
+    .product-table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  
+    .product-table thead {
+      display: none;
+    }
+  
+    .product-table tr {
+      display: block;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+    }
+  
+    .product-table td {
+      display: block;
+      text-align: right;
+      font-size: 14px;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .product-table td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    .product-table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 601px) and (max-width: 900px) {
+    .product-table {
+      width: 100%;
+    }
+  
+    .product-table th, .product-table td {
+      padding: 10px;
+    }
+  
+    .product-table td {
+      font-size: 16px;
+    }
+  }
+  
