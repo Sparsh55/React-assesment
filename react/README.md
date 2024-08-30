@@ -1,8 +1,27 @@
-# React + Vite
+####  Frontend-assesment
+This is a simple webpage fetching api and showing results on ui.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
 
-Currently, two official plugins are available:
+This is a simple webpage fetching api and showing results on ui where you can have functionality like sorting, filtering , searching etc
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Screenshots
+
+
+### Tech Stack
+
+Html, css .js and React js.
+
+### Components 
+This project has components for
+ProductsDetailes :- inculded all code for detailes 
+
+### How to setup the project on local system
+
+  1. Clone this project
+  2. cd react
+  3. npm install
+  4. npm run dev
+
+### Desigened and deveoped by Sparsh Saxena
+
