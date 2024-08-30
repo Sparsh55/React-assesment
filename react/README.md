@@ -17,8 +17,21 @@ inspection tool, results from fetching the api could be seen in ui
 Html, css .js and React js.
 
 ### Components 
-This project has components for
-ProductsDetailes :- inculded all code for detailes 
+1. ProductDetails
+Purpose: Displays detailed information about a single product based on the product ID from the URL.
+Usage: Fetches and shows the product's title, price, popularity, and description. Used on product-specific pages.
+2. ProductList
+Purpose: Displays a list of products with pagination, sorting, and filtering options.
+Usage: Retrieves and manages the list of products, handles pagination, and integrates sorting and filtering components.
+3. SortProducts
+Purpose: Provides sorting functionality to order products by criteria such as price and popularity.
+Usage: Allows users to select sorting options (e.g., price ascending/descending, popularity ascending/descending) to reorder the product list.
+4. FilterProducts
+Purpose: Filters products based on search queries, price ranges, and popularity ranges.
+Usage: Implements search and filter functionality to narrow down the product list according to user input for title, price, and popularity ranges.
+5. ProductTable
+Purpose: Renders a table displaying product details in a structured format.
+Usage: Used within ProductList to show product information (title, price, popularity) in a tabular format with styling.
 
 ### How to setup the project on local system
 
